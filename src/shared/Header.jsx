@@ -1,8 +1,10 @@
-function Header() {    
+const Header = () => {
     return (
         <header>
-            <h1 className="text-4xl font-bold mt-7">Hola desde header.sds</h1>
-         
+            <h1 className="font-black text-5xl text-center mr-10 md:w-2/3 mx-auto">
+                Seguimiento Pacientes {''}
+                <span className="text-indigo-600">Veterinaria</span>
+            </h1>         
         </header>
     )
 }
